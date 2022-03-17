@@ -19,7 +19,8 @@ def get_if():
     ifs=get_if_list()
     iface=None
     for i in get_if_list():
-        if "eth0" in i:
+        if "enp7s0f0" in i:
+            print("get enp7s0f0")
             iface=i
             break;
     if not iface:
